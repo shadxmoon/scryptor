@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просте6йшие программы</title>
+</head>
+<body>
+    <script>
+        // === 1.34 
+        let a, x, b, result;
+        a = parseInt(prompt("Введите значение а в уравнении ax + b = 0"));
+        b = parseInt(prompt("Введите значение b в уравнении ax + b = 0"));
+        x = -b/a;
+        result = x;
+        alert("Корень уравнения = " + result)
+        // == 2. 6 a  дано х секунд, сколько часов прошло с начала суток
+        let sec, secInHour, hours; 
+        sec = parseInt(prompt("Сколько секунд прошло с начала суток?"))
+        secInHour = 3600;
+        hours = Math.floor(sec/3600);
+        alert("с начала суток прошло " + hours + " часов");
+        // === 2.15 в трехзначном числе цифру справа зачеркнуть и переместиьь в начало
+        let num, digit, res;
+        num = parseInt(prompt("Введите изначальное трехзначное число"));
+        digit = num%10;
+        res = (num - digit) / 10;
+        alert("итог = " + digit + res);
+    </script>
+</body>
+</html>
