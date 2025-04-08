@@ -12,13 +12,12 @@
         a = parseInt(prompt("Введите значение а в уравнении ax + b = 0"));
         b = parseInt(prompt("Введите значение b в уравнении ax + b = 0"));
         x = -b/a;
-        result = x;
-        alert("Корень уравнения = " + result)
+        alert("Корень уравнения = " + x)
         // == 2. 6 a  дано х секунд, сколько часов прошло с начала суток
         let sec, secInHour, hours; 
         sec = parseInt(prompt("Сколько секунд прошло с начала суток?"))
         secInHour = 3600;
-        hours = Math.floor(sec/3600);
+        hours = Math.floor(sec/secInHour);
         alert("с начала суток прошло " + hours + " часов");
         // === 2.15 в трехзначном числе цифру справа зачеркнуть и переместиьь в начало
         let num, digit, res;
